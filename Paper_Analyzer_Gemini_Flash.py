@@ -13,7 +13,7 @@ AGENTS_OPTIONS = ["Paper Analyzer"]
 # Initialize the chat model
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-NB_TOKENS = 120000
+NB_TOKENS = 1000000
 
 # Initialize session state for messages
 if "messages" not in st.session_state:
